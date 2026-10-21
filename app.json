@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "BoxPlay", "slug": "boxplay", "version": "1.0.0", "orientation": "default",
+    "userInterfaceStyle": "dark", "backgroundColor": "#121212",
+    "android": { "package": "com.yourname.boxplay" },
+    "ios": { "bundleIdentifier": "com.yourname.boxplay" },
+    "plugins": [
+      ["react-native-google-mobile-ads", {
+        "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+        "iosAppId": "ca-app-pub-3940256099942544~1458002511"
+      }]
+    ]
+  }
+}
